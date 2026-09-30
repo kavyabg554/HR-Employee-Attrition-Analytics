@@ -1,85 +1,84 @@
-# 🛒 E-Commerce Sales & Customer Analytics
+# 👥 HR Employee Attrition Analytics
 
-An interactive data analytics web application that analyzes e-commerce sales, customer behavior, product performance, profitability, and regional trends to generate actionable business insights.
+An interactive HR analytics application designed to analyze employee attrition, identify key attrition drivers, evaluate employee risk, and support data-driven workforce retention strategies.
 
 ## 📌 Project Overview
 
-This project transforms raw e-commerce transaction data into meaningful business insights using Python, SQL, and interactive dashboards.
+This project analyzes employee data to understand **why employees leave an organization** and identifies patterns across departments, job roles, salaries, tenure, and other employee attributes.
 
-The application provides analysis of sales performance, revenue trends, customer purchasing behavior, product performance, regional performance, profit margins, and repeat customers.
+The application combines Python, SQL, statistical analysis, and interactive visualization to provide HR-focused insights.
 
 ## 🎯 Key Objectives
 
-* Analyze sales and revenue trends
-* Identify top-performing products and categories
-* Analyze customer purchasing behavior
-* Identify repeat and high-value customers
-* Analyze regional performance
-* Evaluate profit and margin performance
-* Generate business insights from historical sales data
+* Analyze employee attrition patterns
+* Identify major attrition drivers
+* Compare attrition across departments and job roles
+* Analyze salary and tenure relationships
+* Identify high-risk employee segments
+* Support employee retention analysis
+* Estimate potential retention benefits
 
 ## 🛠️ Technologies
 
 * **Python**
 * **Pandas**
 * **NumPy**
+* **SciPy**
 * **SQL**
 * **SQLite**
 * **Flask**
+* **REST APIs**
 * **HTML / CSS / JavaScript**
 * **Jinja2**
-* **Excel / CSV**
-* **REST APIs**
-* **Interactive Data Visualization**
-* **RFM Analysis**
+* **Chart.js**
+* **Statistical Analysis**
+* **Data Visualization**
 
 ## 📊 Key Analytics
 
-### Sales Analytics
+### Attrition Analysis
 
-* Total Sales
-* Revenue Trends
-* Monthly/Yearly Performance
-* Order Volume
-* Average Order Value
+* Overall Attrition Rate
+* Department-wise Attrition
+* Job Role-wise Attrition
+* Tenure-based Attrition
+* Salary-based Attrition
 
-### Customer Analytics
+### Employee Analysis
 
-* Customer Segmentation
-* Repeat Customers
-* RFM Analysis
-* Customer Purchase Behavior
+* Employee Segmentation
+* High-Risk Employee Identification
+* Department Analysis
+* Job Role Analysis
+* Salary Analysis
+* Tenure Analysis
 
-### Product Analytics
+### Statistical Analysis
 
-* Top-Selling Products
-* Category Performance
-* Product Revenue
-* Profitability
-
-### Regional Analytics
-
-* Regional Sales
-* Revenue Contribution
-* Regional Performance Comparison
+* Statistical Driver Analysis
+* Correlation Analysis
+* Cohort Analysis
+* Attrition Risk Scoring
 
 ## ⚙️ Major Features
 
-* Interactive KPI dashboard
-* CSV/Excel data ingestion
-* Automated data cleaning
-* SQL analytical queries
-* Customer segmentation
-* RFM analysis
-* Sales and profit analysis
+* Interactive HR dashboard
+* KPI cards
+* Dynamic filters
+* Attrition trend analysis
+* Employee risk classification
+* Department and job-role analysis
+* SQL analytics engine
+* Statistical analysis
 * Interactive charts
-* Business insight generation
-* Data export
+* CSV data export
+* Retention ROI simulation
+* REST API integration
 
 ## 📂 Project Structure
 
 ```text
-E-Commerce-Sales-Customer-Analytics/
+HR-Employee-Attrition-Analytics/
 │
 ├── app.py
 ├── requirements.txt
@@ -93,15 +92,19 @@ E-Commerce-Sales-Customer-Analytics/
 
 ## ▶️ How to Run
 
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
+
+Run the Flask application:
 
 ```bash
 python app.py
 ```
 
-Open the application in your browser:
+Open:
 
 ```text
 http://127.0.0.1:5000
@@ -109,7 +112,7 @@ http://127.0.0.1:5000
 
 ## 💡 Business Value
 
-The project helps businesses understand **what they sell, who their customers are, where revenue comes from, and which products and customers contribute most to overall performance.**
+The application helps HR teams understand **where and why employee attrition occurs**, identify employee groups requiring attention, and use data-driven insights to support retention planning.
 
 ## 👩‍💻 Author
 
